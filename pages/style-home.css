@@ -1,0 +1,96 @@
+header {
+    background: #BBBBBB;
+    padding: 20px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.caixa nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+#banner {
+    width: 80%;
+    height: 500px;
+}
+
+.principal {
+    background-color: #cccccc;
+    padding: 30px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: red;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: white;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.beneficios ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.image-beneficios {
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    background-image: url(../images/background-footer.jpg);
+    padding: 40px 20px;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
